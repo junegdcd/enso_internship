@@ -1,46 +1,43 @@
 import xarray as xr
 import matplotlib.pyplot as plt
-import numpy as np
+import pandas as pd
 
-file = "observations_AVISO_historical_r1i1p1f1_1993_2019_time_series.nc"
-ds = xr.open_dataset(f".\data\{file}", engine='h5netcdf')
+files = ["observations_AVISO_historical_r1i1p1f1_1993_2019_time_series.nc",
+        "observations_ORAS5_historical_r1i1p1f1_1993_2019_time_series.nc"]
+ds = [xr.open_dataset(f".\data\{f}", engine='h5netcdf') for f in files]
 print(ds)
 
-# Identify variable groups based on prefixes before the first underscore
-var_groups = {}
-for var in ds.data_vars:
-    if "_" in var:  # Ensures we only group variables with prefixes
-        prefix = var.split("_")[0]
-        var_groups.setdefault(prefix, []).append(var)
+# Group variables
+rssh_aviso = [var for var in ds[0].data_vars if var.startswith("rssh_")]
+rssh_oras5 = [var for var in ds[1].data_vars if var.startswith("rssh_")]
 
-# Sort groups by number of variables for consistent ordering
-var_groups = dict(sorted(var_groups.items(), key=lambda x: len(x[1]), reverse=True))
+# Def subplot
+nvar = min(len(rssh_aviso), len(rssh_oras5))
+fig, axes = plt.subplots(nrows=nvar, ncols=1, figsize=(12, 4*nvar), sharex=True)
+fig.suptitle("Correlation two by two of RSSH Variables", fontsize=16, fontweight='bold')
 
-# Determine subplot layout (rows and columns)
-num_groups = len(var_groups)
-num_cols = 2  # Set number of columns (adjust as needed)
-num_rows = int(np.ceil(num_groups / num_cols))  # Calculate required rows
+# Function to plot paired time series with correlation
+def plot_correlation(var1, var2, dataset1, dataset2, ax):
+    if var1 not in dataset1 or var2 not in dataset2:
+        print(f"Skipping pair ({var1}, {var2}) - One of the variables is missing.")
+        return
 
-# Create figure and axes
-fig, axes = plt.subplots(num_rows, num_cols, figsize=(14, 6 * num_rows), sharex=True)
+    df = pd.DataFrame({
+        var1: dataset1[var1].values.flatten(),
+        var2: dataset2[var2].values.flatten()
+    }).dropna()
 
-# Flatten axes if there's more than one row
-axes = np.atleast_1d(axes).flatten()
+    if df.shape[1] < 2:  # Ensure both variables exist in the DataFrame
+        print(f"Skipping pair ({var1}, {var2}) - Not enough data for correlation.")
+        return
 
-# Plot each variable group in its own subplot
-for ax, (prefix, vars) in zip(axes, var_groups.items()):
-    for var in vars:
-        ax.plot(ds["time"], ds[var], label=var)
-    ax.set_title(f"{prefix.upper()} Variables")
-    ax.set_xlabel("Time")
-    ax.set_ylabel("Value")
-    ax.legend()
+    correlation = df.corr().iloc[0, 1]  # Compute correlation
+
+    # Plot time series
+    ax.plot(dataset1["time"], dataset1[var1], label=f"{var1} (AVISO)")
+    ax.plot(dataset2["time"], dataset2[var2], label=f"{var2} (ORAS5)", linestyle='dashed')
+
+    # Formatting
+    ax.set_title(f"Correlation ({var1} & {var2}): {correlation:.2f}")
+    ax.legend(loc="upper right")
     ax.grid(True)
-
-# Hide unused subplots (if any)
-for i in range(len(var_groups), len(axes)):
-    fig.delaxes(axes[i])
-
-# Adjust layout and show
-plt.tight_layout()
-plt.show()
