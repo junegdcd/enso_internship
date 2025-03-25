@@ -7,11 +7,12 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 ### 0325 Tue
 
-- Compare Aviso RSSH with CTL RSSH (time series : cor, rms-dif, std-of each)
+- ~~practice with hovmoeller plot~~ (finish colorbar)
+- Compare Aviso RSSH with CTL RSSH (time series : cor, rms-dif, std-of each) : either download data from spirit, either work with windows (help from yyan)
 - Work on Aviso maps : plot RSSH in N3
   -  cor, rms-dif, std-of each, skewness
   -  idem in N4
--  Read (Boulanger, science?)
+-  **Read** (Boulanger, science?)
 
 ### 0324 Mon
 
