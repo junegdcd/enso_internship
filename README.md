@@ -5,17 +5,25 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 ## WEEK 2
 
+### 0325 Tue
+
+- Compare Aviso RSSH with CTL RSSH (time series : cor, rms-dif, std-of each)
+- Work on Aviso maps : plot RSSH in N3
+  -  cor, rms-dif, std-of each, skewness
+  -  idem in N4
+-  Read (Boulanger, science?)
+
 ### 0324 Mon
 
-- **faire marcher les comits**
+- ~~faire marcher les comits~~
 - ~~Comparer : plot AVISO RSSH, plot ORA5 RSSH, compute correlation, rmse, std~~ (valider)
 - get CTL SSH data on Spirit
   
 Later :
 - effectuer une validation du niveau de la mer dans la simulation de contrôle aux observations (=prise en main : **comparer sorties entre AVISO SSH et CTL SSH**
-(explore memory experiment dataset in the following path on SPIRITX : /scratchx/fliu/ data_to_June/)
+(explore memory experiment dataset in the following path on SPIRITX : /scratchx/fliu/data_to_June/)
 ), a validation of the CTL simulation sea level anomalies to AVISO observations (Maps: cor, rms-dif, std-of each; **time series in regions such as Niño3 and Niño4**). You can do similar things (just cor) for **comparisons between sea level and D20**
-- Continuer explorer git Yyan (hovmoeller not pour pouvoir zoomer sur N3 et N34)
+- Continuer explorer git Yyan (hovmoeller not pour pouvoir sélctionner N3 et N4)
 - Read : 
   - read the Fedorov overview of linear equatorial wave theory,  
   - paper submitted to science 
@@ -28,9 +36,10 @@ Later :
 - effectuer des cartes de date d’arrivée dans Niño3.4, coloriées en fonction de la stabilité du système couplé
 - chercher des indices optimaux de prédiction du prochain ENSO
 - comparer les régions qui donnent une prévision optimale avec celles obtenues en calculant les signaux qui arrivent au bon moment dans N3.4
+  
 - I added Gill’s bible on the same dropbox, and I suggest that you check chapters 6.13 (baroclinic modes), 11.5 and 11.6 (equatorial dynamics in the long wave approximation). I am not expecting you to understand everything, but I will answer questions (find dropbox)
--I think that finding an optimal proxy for the OMI (see science paper) based on sea-level average remains a priority. The “h_R index” we use in the Science paper was initially built on D20, not sea level, and we did not very accurately work out propagation times, so I’m sure it is possible to do better than that. That should be one of the objectives of your training period
-- Completing administrative formalities, opening all the accounts, and doing some reading to familiarize yourself with the linear equatorial theory should already take a lot of your first two weeks. You can get started by a validation of the CTL simulation sea level anomalies to AVISO observations (Maps: cor, rms-dif, std-of each; time series in regions such as Niño3 and Niño4). You can do similar things (just cor) for comparisons between sea level and D20
+- I think that finding an optimal proxy for the OMI (see science paper) based on sea-level average remains a priority. The “h_R index” we use in the Science paper was initially built on D20, not sea level, and *we did not very accurately work out propagation times, so I’m sure it is possible to do better than that*. That should be one of the objectives of your training period
+- Completing administrative formalities, opening all the accounts, and doing some **reading to familiarize yourself with the linear equatorial theory** should already take a lot of your first two weeks. You can get started by a validation of the CTL simulation sea level anomalies to AVISO observations (Maps: cor, rms-dif, std-of each; time series in regions such as Niño3 and Niño4). You can do similar things (just cor) for comparisons between sea level and D20
 
 ## WEEK 1
 
