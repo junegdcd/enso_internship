@@ -5,6 +5,11 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 ## WEEK 2
 
+### 0326
+
+- read article science
+- download data from spirit
+
 ### 0325 Tue
 
 - ~~practice with hovmoeller plot~~ (finish colorbar)
