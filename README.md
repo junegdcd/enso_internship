@@ -5,6 +5,11 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 ## WEEK 2
 
+### 0327
+
+- read article science
+- compare aviso and ctl : timmenoleap series, interpolation, ...?
+
 ### 0326
 
 - read article science
