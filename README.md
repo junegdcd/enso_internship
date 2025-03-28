@@ -7,9 +7,9 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 ###  0328
 
-- read paper science
-- include jvay's remark on aviso-ctl
-- read fédorov ?
+- ~~read paper science~~ (:
+- ~~include jvay's remark on aviso-ctl~~ (finish plot w correlation, change and adopt functional architecture of code (left in compare), despecialize funcs)
+- ~~read fedorov~~ (:1)
 
 ### 0327
 
