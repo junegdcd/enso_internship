@@ -5,17 +5,22 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 ## WEEK 2
 
+###  0328
+
+- read paper science
+- include jvay's remark on aviso-ctl
+- read fédorov ?
+
 ### 0327
 
 - read article science (:6)
-- compare aviso and ctl : timmenoleap series, interpolation, ...?
+- compare aviso and ctl : ~~timmenoleap series~~, interpolation, ...?
 
 ### 0326
 
 - read article science
-- download data from spirit
+- ~~download data from spirit~~
 - Compare Aviso RSSH with CTL RSSH (time series : cor, rms-dif, std-of each) : either download data from spirit, either work with windows. Mean on boxes ?
-- get familiar with timmenoleap series (?)
 
 ### 0325 Tue
 
