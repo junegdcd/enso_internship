@@ -5,15 +5,27 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 ## WEEK 2
 
+###  0328
+
+- read paper science
+- include jvay's remark on aviso-ctl
+- read fédorov ?
+
+### 0327
+
+- read article science (:6)
+- compare aviso and ctl : ~~timmenoleap series~~, interpolation, ...?
+
 ### 0326
 
 - read article science
-- download data from spirit
+- ~~download data from spirit~~
+- Compare Aviso RSSH with CTL RSSH (time series : cor, rms-dif, std-of each) : either download data from spirit, either work with windows. Mean on boxes ?
 
 ### 0325 Tue
 
 - ~~practice with hovmoeller plot~~ (finish colorbar)
-- Compare Aviso RSSH with CTL RSSH (time series : cor, rms-dif, std-of each) : either download data from spirit, either work with windows (help from yyan)
+
 - Work on Aviso maps : plot RSSH in N3
   -  cor, rms-dif, std-of each, skewness
   -  idem in N4
