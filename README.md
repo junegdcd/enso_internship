@@ -3,11 +3,22 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 # Ongoing tasks
 
+## WEEK 3
+
+Main goals : have clear view on the key topics of the interships, finish draft and fedorov, get in touch Jvay
+
+### 250331
+
+- read fedorov (:1) (6)
+- aviso clt : finish correlation (code left in compare)
+- maps aviso ctl
+> The maps of the model / aviso comparisons will be useful, now! Another thing that may be interesting is to take a look at maps of the corr / regression coefficient of the thermocline depth (D20) to ssh interannual anomalies. Those are usually considered to give the same information, but we saw in our recent draft that they don't exactly, and examining a bit more where the comparison breaks down would be interresting...
+
 ## WEEK 2
 
 ###  0328
 
-- ~~read paper science~~ (:
+- ~~read paper science~~ (:8)
 - ~~include jvay's remark on aviso-ctl~~ (finish plot w correlation, change and adopt functional architecture of code (left in compare), despecialize funcs)
 - ~~read fedorov~~ (:1)
 
