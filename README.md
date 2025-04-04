@@ -3,11 +3,29 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 # Ongoing tasks
 
+## WEEK 4
+> Comparaison à Aviso: tracer cartes stdx2, skewnessx2, cor, rms-dif
+Mieux comprendre différences ssh, D20: regarder cors avec profils T, rau, U => à garder pour plus tard
+ssh ou D20 meilleur précurseur d'ENSO? :
+commencer par les obs (ORAS5 pour ssh, D20, SST, demander à @Yann Planton )
+Indice ENSO: N3.4 SSTA Nov-Jan  (indice classique pour le pic d'ENSO)
+tracer correlation anoms D20 et ssh à différents lead: -15 mois, -12 mois, ..., 0 mois, 3 mois, 6 mois
+on pourra aussi le faire pour des indices tels que le WWV ou le contenu de chaleur dans l'ouest du bassin
+Commencer à regarder les expériences MEM
+tracer des sections longitude-temps: Eq, R1, R3 peak at  eq, ~4°N, ~7°N, so lets's say 1.5S-1.5N, 2.5N-5.5N (and S),5.5N-8.5N (and S)
+start by a few selected years, the first MEM year
+we'll then need to imagine how to estimate phase velocities systematically
+
 ## WEEK 3
 
 Main goals : have clear view on the key topics of the interships, finish draft and fedorov, get in touch Jvay
 
-### 250331
+### 0404
+
+- get aviso data yyan
+- Comparaison CTL Aviso: tracer cartes stdx2, skewnessx2, cor, rms-dif
+
+### 0331
 
 - read fedorov (:1) (6)
 - aviso clt : finish correlation (code left in compare)
