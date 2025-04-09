@@ -3,7 +3,7 @@ Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studyi
 
 # Ongoing tasks
 
-## WEEK 4
+## WEEK 4 "Welcome back Jvay"
 > Comparaison à Aviso: tracer cartes stdx2, skewnessx2, cor, rms-dif
 Mieux comprendre différences ssh, D20: regarder cors avec profils T, rau, U => à garder pour plus tard
 ssh ou D20 meilleur précurseur d'ENSO? :
@@ -16,7 +16,14 @@ tracer des sections longitude-temps: Eq, R1, R3 peak at  eq, ~4°N, ~7°N, so le
 start by a few selected years, the first MEM year
 we'll then need to imagine how to estimate phase velocities systematically
 
-## WEEK 3
+### 0409
+- get SSH client for windows (and try to finish vscode setup)
+- read federow and clear up the profile of the R1 and R3 said to be upwelling ❔
+- tropico meeting 10:30
+- jvay meeting at 3:00 (or earlier)
+- leave at max 3:40 
+
+## WEEK 3 "Meeting with Fedorov ('s paper)"
 
 Main goals : have clear view on the key topics of the interships, finish draft and fedorov, get in touch Jvay
 
