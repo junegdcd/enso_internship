@@ -16,12 +16,16 @@ tracer des sections longitude-temps: Eq, R1, R3 peak at  eq, ~4°N, ~7°N, so le
 start by a few selected years, the first MEM year
 we'll then need to imagine how to estimate phase velocities systematically
 
+### 0410
+- AVISO CTL
+- check ADUM 
+- (get SSH client for windows (and try to finish vscode setup))
+
 ### 0409
 - get SSH client for windows (and try to finish vscode setup)
-- read federow and clear up the profile of the R1 and R3 said to be upwelling ❔
-- tropico meeting 10:30
-- jvay meeting at 3:00 (or earlier)
-- leave at max 3:40 
+- ~~read federow and clear up the profile of the R1 and R3 said to be upwelling ❔~~
+- ~~tropico meeting 10:30~~
+- ~~jvay meeting at 3:00 (or earlier)~~
 
 ## WEEK 3 "Meeting with Fedorov ('s paper)"
 
