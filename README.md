@@ -16,6 +16,13 @@ tracer des sections longitude-temps: Eq, R1, R3 peak at  eq, ~4°N, ~7°N, so le
 start by a few selected years, the first MEM year
 we'll then need to imagine how to estimate phase velocities systematically
 
+### 0411
+- start CTL aviso on maps, start a project oriented workflow (https://python-guide-pt-br.readthedocs.io/fr/latest/writing/structure.html) to be continued : debug plugging of ex6 in ex7.
+- to be continued check eduroam : https://www.ipsl.fr/intranet/agenda-intranet/
+- tbc : install ssh client
+- Edwins soutenance
+- rheologie enpc
+
 ### 0410
 - AVISO CTL
 - check ADUM 
