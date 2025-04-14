@@ -1,15 +1,76 @@
 # Enso Internship
-Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studying the impact of climate change on ENSO memory
 
-# Ongoing tasks
+*Purpose : analyzing associated ocean dynamics, **improving ENSO predictors**, studying the impact of climate change on ENSO memory*
+
+## WEEK 5 : *Let's add the cart to the horses #ED129*
+
+- download aviso maps from yy depo
+- use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps ❗ (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
+
+If remaining time :
+- ssh, eduroam, vscode (? windows, linux)
+- rework on jerome's note on the internship, continue fedorov
+- **ADUM** 🤯
+
+
+____
+
+
+
+## WEEK 4 : *Welcome back Jvay*
+> Comparaison à Aviso: tracer cartes stdx2, skewnessx2, cor, rms-dif
+Mieux comprendre différences ssh, D20: regarder cors avec profils T, rau, U => à garder pour plus tard
+ssh ou D20 meilleur précurseur d'ENSO? :
+commencer par les obs (ORAS5 pour ssh, D20, SST, demander à @Yann Planton )
+Indice ENSO: N3.4 SSTA Nov-Jan  (indice classique pour le pic d'ENSO)
+tracer correlation anoms D20 et ssh à différents lead: -15 mois, -12 mois, ..., 0 mois, 3 mois, 6 mois
+on pourra aussi le faire pour des indices tels que le WWV ou le contenu de chaleur dans l'ouest du bassin
+Commencer à regarder les expériences MEM
+tracer des sections longitude-temps: Eq, R1, R3 peak at  eq, ~4°N, ~7°N, so lets's say 1.5S-1.5N, 2.5N-5.5N (and S),5.5N-8.5N (and S)
+start by a few selected years, the first MEM year
+we'll then need to imagine how to estimate phase velocities systematically
+
+### 0411
+- start CTL aviso on maps, start a project oriented workflow (https://python-guide-pt-br.readthedocs.io/fr/latest/writing/structure.html) to be continued : **debug plugging of ex6 in ex7.**
+- to be continued check eduroam : https://www.ipsl.fr/intranet/agenda-intranet/
+- tbc : install ssh client
+- ~~Edwins soutenance~~
+- ~~rheologie enpc~~
+
+### 0410
+- AVISO CTL
+- check ADUM 
+- (get SSH client for windows (and try to finish vscode setup))
+
+### 0409
+- get SSH client for windows (and try to finish vscode setup)
+- ~~read federow and clear up the profile of the R1 and R3 said to be upwelling ❔~~
+- ~~tropico meeting 10:30~~
+- ~~jvay meeting at 3:00 (or earlier)~~
+
+## WEEK 3 : "Meeting with Fedorov ('s paper)"
+
+Main goals : have clear view on the key topics of the interships, finish draft and fedorov, get in touch Jvay
+
+### 0404
+
+- get aviso data yyan
+- Comparaison CTL Aviso: tracer cartes stdx2, skewnessx2, cor, rms-dif
+
+### 0331
+
+- read fedorov (:1) (6)
+- aviso clt : finish correlation (code left in compare)
+- maps aviso ctl
+> The maps of the model / aviso comparisons will be useful, now! Another thing that may be interesting is to take a look at maps of the corr / regression coefficient of the thermocline depth (D20) to ssh interannual anomalies. Those are usually considered to give the same information, but we saw in our recent draft that they don't exactly, and examining a bit more where the comparison breaks down would be interresting...
 
 ## WEEK 2
 
 ###  0328
 
-- read paper science
-- include jvay's remark on aviso-ctl
-- read fédorov ?
+- ~~read paper science~~ (:8)
+- ~~include jvay's remark on aviso-ctl~~ (finish plot w correlation, change and adopt functional architecture of code (left in compare), despecialize funcs)
+- ~~read fedorov~~ (:1)
 
 ### 0327
 
