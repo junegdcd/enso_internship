@@ -1,9 +1,23 @@
 # Enso Internship
-Purpose : analyzing associated ocean dynamics, improving ENSO predictors, studying the impact of climate change on ENSO memory
 
-# Ongoing tasks
+*Purpose : analyzing associated ocean dynamics, **improving ENSO predictors**, studying the impact of climate change on ENSO memory*
 
-## WEEK 4 "Welcome back Jvay"
+## WEEK 5 : *Let's add the cart to the horses #ED129*
+
+- download aviso maps from yy depo
+- use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps ❗ (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
+
+If remaining time :
+- ssh, eduroam, vscode (? windows, linux)
+- rework on jerome's note on the internship, continue fedorov
+- **ADUM** 🤯
+
+
+____
+
+
+
+## WEEK 4 : *Welcome back Jvay*
 > Comparaison à Aviso: tracer cartes stdx2, skewnessx2, cor, rms-dif
 Mieux comprendre différences ssh, D20: regarder cors avec profils T, rau, U => à garder pour plus tard
 ssh ou D20 meilleur précurseur d'ENSO? :
@@ -17,11 +31,11 @@ start by a few selected years, the first MEM year
 we'll then need to imagine how to estimate phase velocities systematically
 
 ### 0411
-- start CTL aviso on maps, start a project oriented workflow (https://python-guide-pt-br.readthedocs.io/fr/latest/writing/structure.html) to be continued : debug plugging of ex6 in ex7.
+- start CTL aviso on maps, start a project oriented workflow (https://python-guide-pt-br.readthedocs.io/fr/latest/writing/structure.html) to be continued : **debug plugging of ex6 in ex7.**
 - to be continued check eduroam : https://www.ipsl.fr/intranet/agenda-intranet/
 - tbc : install ssh client
-- Edwins soutenance
-- rheologie enpc
+- ~~Edwins soutenance~~
+- ~~rheologie enpc~~
 
 ### 0410
 - AVISO CTL
@@ -34,7 +48,7 @@ we'll then need to imagine how to estimate phase velocities systematically
 - ~~tropico meeting 10:30~~
 - ~~jvay meeting at 3:00 (or earlier)~~
 
-## WEEK 3 "Meeting with Fedorov ('s paper)"
+## WEEK 3 : "Meeting with Fedorov ('s paper)"
 
 Main goals : have clear view on the key topics of the interships, finish draft and fedorov, get in touch Jvay
 
