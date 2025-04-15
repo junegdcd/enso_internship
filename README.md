@@ -1,14 +1,23 @@
 # Enso Internship
 
-*Purpose : analyzing associated ocean dynamics, **improving ENSO predictors**, studying the impact of climate change on ENSO memory*
+*Purpose : **improving ENSO predictors: focus on an improved h_R index, tailored for each season**. How does it compare with other indicators such as WWV or h_w in terms of ENSO skill?
+Left for further research : analyzing associated ocean dynamics, studying the impact of climate change on ENSO memory*
+
+Main goals and steps : 
+1) **Validation of Control Simulation** (maps: sea level inter anoms cor, rms-dif with AVISO + CTL & Aviso std & skewness)
+2) **Hovmoeller** : AVISO, CTL, MEM, substract and compare the information about wind forcing, quick computation of speeds
+3) **Lead-regression** : reg ( SSH,mem, [SSH,mem]sur N.34), find origins of ssh anomalies (due to Rossby, Kelvin, ...)
+5) Biblio : get more precise on **phase speed estimation on hovmoeller** (cf yy's messages)
+
 
 ## WEEK 5 : *Let's add the cart to the horses #ED129*
 
-- download aviso maps from yy depo
+- ~~download aviso maps from yy depo~~
 - use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps ❗ (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
+- prioritize hovmoeller 😸
 
 If remaining time :
-- ssh, eduroam, vscode (? windows, linux)
+- ssh, eduroam, vscode (? windows, linux) ALMOST !!!!
 - rework on jerome's note on the internship, continue fedorov
 - **ADUM** 🤯
 
