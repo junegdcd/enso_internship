@@ -13,8 +13,9 @@ Main goals and steps :
 ## WEEK 5 : *Let's add the cart to the horses #ED129*
 
 - ~~download aviso maps from yy depo~~
-- use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps ❗ (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
-- prioritize hovmoeller 😸
+- use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
+- **prioritize hovmoeller : iether download flui mem, iether.... start working on VS Code ⁉️ Adapt the func to include ORAS5, include Jvay's remarks, not: slope of dash line, seasonal anomlies, (create 2 climatologies), coolwarm + white**
+- have a look at CDO and xarray ressources
 
 If remaining time :
 - ssh, eduroam, vscode (? windows, linux) ALMOST !!!!
