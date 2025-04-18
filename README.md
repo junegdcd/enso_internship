@@ -15,7 +15,12 @@ Main goals and steps :
 - ~~download aviso maps from yy depo~~
 - use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
 - **prioritize hovmoeller : iether download flui mem, iether.... start working on VS Code ⁉️ Adapt the func to include ORAS5, include Jvay's remarks, not: slope of dash line, seasonal anomlies, (create 2 climatologies), coolwarm + white**
-- have a look at CDO and xarray ressources
+- have a look at CDO and xarray ressources : prioritize having a good **python project architecture**, read https://python-docs.readthedocs.io/en/latest/writing/structure.html, create **a class for each wave** ask help chatgpt, and ask yyan.
+- config pyxis, vscode, ...
+- quickly finish hovmoeller
+- focus on the main topic of the internship : corr(SSH(waves), SST(el nino)), optimisation library, to find better precursors.
+- schedule meeting on wednesday
+- do dossier ecole doc
 
 If remaining time :
 - ssh, eduroam, vscode (? windows, linux) ALMOST !!!!
