@@ -7,14 +7,26 @@ Main goals and steps :
 1) **Validation of Control Simulation** (maps: sea level inter anoms cor, rms-dif with AVISO + CTL & Aviso std & skewness)
 2) **Hovmoeller** : AVISO, CTL, MEM, substract and compare the information about wind forcing, quick computation of speeds
 3) **Lead-regression** : reg ( SSH,mem, [SSH,mem]sur N.34), find origins of ssh anomalies (due to Rossby, Kelvin, ...)
-5) Biblio : get more precise on **phase speed estimation on hovmoeller** (cf yy's messages)
+4) Biblio : get more precise on **phase speed estimation on hovmoeller** (cf yy's messages)
 
 
 ## WEEK 5 : *Let's add the cart to the horses #ED129*
 
+### 0424
+
+0) **Working tools** : setup VScode on ubuntu. Later : vscode on windows, pyxis.
+1) **Validation of Control Simulation** : later (tune skewness and corr, ...)
+2)  **Hovmoeller** : fix it after meeting 0424
+3)  **Lead-regression** : architecture project and get started
+4)  **Biblio** : later
+5)  **ED129** : give information to Jvay, make sure the binome is confirmed 😵‍💫
+
+
+### 0421
+
 - ~~download aviso maps from yy depo~~
-- use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
-- **prioritize hovmoeller : iether download flui mem, iether.... start working on VS Code ⁉️ Adapt the func to include ORAS5, include Jvay's remarks, not: slope of dash line, seasonal anomlies, (create 2 climatologies), coolwarm + white**
+- on 1) (left on the side) : use script 6 in script 7 (learn import script) to plot comparison AVISO CTL on maps (try to : *tracer cartes stdx2, skewnessx2, cor, rms-dif*)
+- **prioritize hovmoeller : ~~either download flui mem~~, iether.... start working on VS Code ⁉️ Adapt the func to include ORAS5, include Jvay's remarks, not: ~~slope of dashed line~~, ~~seasonal anomlies (create 2 climatologies)~~, ~~coolwarm + white~~**
 - have a look at CDO and xarray ressources : prioritize having a good **python project architecture**, read https://python-docs.readthedocs.io/en/latest/writing/structure.html, create **a class for each wave** ask help chatgpt, and ask yyan.
 - config pyxis, vscode, ...
 - quickly finish hovmoeller
