@@ -9,6 +9,11 @@ Main goals and steps :
 3) **Lead-regression** : reg ( SSH,mem, [SSH,mem]sur N.34), find origins of ssh anomalies (due to Rossby, Kelvin, ...)
 4) Biblio : get more precise on **phase speed estimation on hovmoeller** (cf yy's messages)
 
+## WEEK 6 : *La lutte sur deux fronts*
+
+- radon transform : optimize code using numpy. then output the plot, put them in slide show and comment
+- hovmoeller : put them all in the slideshow too, try to see paterns and make comments
+
 
 ## WEEK 5 : *Let's add the cart to the horses #ED129*
 
