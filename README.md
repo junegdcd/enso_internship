@@ -11,8 +11,9 @@ Main goals and steps :
 
 ## WEEK 6 : *La lutte sur deux fronts*
 
-- radon transform : optimize code using numpy. then output the plot, put them in slide show and comment
-- hovmoeller : put them all in the slideshow too, try to see paterns and make comments
+2) **hovmoeller** : put them all in a *slideshow*, try to see paterns and make comments.
+  add radon transform results : optimize code using numpy and gpt4. Then output the plot and put them in *slideshow*. Comment.   
+3) **lead-reg** : architecture project of mapping arrival times, present it in *slideshow* too.
 
 
 ## WEEK 5 : *Let's add the cart to the horses #ED129*
