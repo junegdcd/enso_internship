@@ -1,4 +1,38 @@
-# Enso Internship
+# If there were life after death
+
+## The Lasst Week of Internship (15/07)
+- clear up everything
+- bring back jvay's book
+
+## Final Week before defense (07/07)
+- intern's and tropico speech (?)
+- prepare defense of internship
+- defense of internship (11th)
+
+## The Week Before (30/06)
+- rest
+- finish empirical speed
+- finish mémoire
+- prepare interns' and tropico speech (?)
+
+## The Week Off (23/06)
+- rest
+
+## The "Antépénultième" Week (16/06)
+- get finalised hovmoellers with theo speed
+- start working on empirical speed
+
+## The Week After ED (09/06)
+- get corr maps jvay's way (include 0611 feedbacks on 1) stat 2) 10S10N 3) lat ticks)
+- include yy's code optimization with matrix reg
+- start hovmoellers on corr maps, try to highlight reflections
+- if time re-read on radon and chelton
+
+
+
+
+
+----
 
 *Purpose : **improving ENSO predictors: focus on an improved h_R index, tailored for each season**. How does it compare with other indicators such as WWV or h_w in terms of ENSO skill?
 Left for further research : analyzing associated ocean dynamics, studying the impact of climate change on ENSO memory*
